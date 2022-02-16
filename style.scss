@@ -1,0 +1,25 @@
+main {
+  background-color: blue;
+  .table {
+    display: grid;
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: repeat(3, 33%);
+    width: 90vw;
+    height: 90vh;
+
+    .cell {
+      font-size: xx-large;
+      border: 2px solid black;
+      position: relative;
+
+      p {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

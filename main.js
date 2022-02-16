@@ -44,7 +44,7 @@ const onPlayerClick = () => {
             alert('THE WINNER IS ' + table[0][i])
     }
 
-    // אלכסונים
+    // אלכסונים//
     if (areEquals(table[0][0], table[1][1], table[2][2]) &&
         cellIsNotEmpty(table[0][0])) {
         alert('THE WINNER IS ' + table[0][0])
